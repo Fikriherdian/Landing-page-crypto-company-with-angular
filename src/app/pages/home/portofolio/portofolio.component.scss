@@ -1,11 +1,24 @@
 $enigma-color: #233d90;
+$primary-color:#ffbf00;
+$bg-color : #1a1c20;
+$box-color : rgb(8, 8, 8);
+$text-color: #ffffffbf;
 
 .portofolio {
   padding-bottom: 4rem;
+  background-color: $bg-color;
 }
 
 .portofolio-title {
   margin-bottom: 4rem;
+}
+
+.portofolio h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:white;
 }
 
 .portofolio h2 {
@@ -13,12 +26,14 @@ $enigma-color: #233d90;
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  color:black;
 }
 
 .portofolio p {
   text-align: center;
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #ffffffbf;
 }
 
 .portofolio-card {

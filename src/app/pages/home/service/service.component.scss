@@ -1,7 +1,12 @@
-$enigma-color: #233d90;
+$primary-color:#ffbf00;
+$bg-color : #1a1c20;
+$box-color : rgb(8, 8, 8);
+$text-color: #ffffffbf;
+
 
 .service {
   padding-bottom: 4rem;
+  background-color: #1a1c20;
 }
 
 .service h2 {
@@ -9,16 +14,18 @@ $enigma-color: #233d90;
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  color: #ffff;
 }
 
 .service p {
   text-align: center;
   margin-top: 0;
   margin-bottom: 1rem;
+  color: $text-color;
 }
 
 .service-card {
-  background-color: #fff;
+  background-color: rgb(8, 8, 8);
   border-style: none;
   border-radius: 1rem;
   padding: 2.5rem 1.3rem;
@@ -38,11 +45,12 @@ $enigma-color: #233d90;
   justify-content: center;
 }
 
+
 .service-ico:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
+  background-color: #ffbf00;
+  box-shadow: 0 0 0 10px gold;
 }
 
 .service-ico .ico-circle i {

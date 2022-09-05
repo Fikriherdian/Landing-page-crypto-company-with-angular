@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home.component';
 import { ServiceComponent } from './service/service.component';
 import { PortofolioComponent } from './portofolio/portofolio.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PortofolioComponent } from './portofolio/portofolio.component';
     PortofolioComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     HomeComponent]

@@ -9,6 +9,8 @@
 //   padding: 12px 0;
 // }
 
+
+
 #header .header-logo {
   font-size: 28px;
   margin: 0;
@@ -20,4 +22,19 @@
 .bg-navbar {
   background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
+}
+
+
+.navbar-brand{
+  font-size: 30px;
+  color: 	#ffFF;
+}
+
+.navbar-brand i{
+  font-size: xx-large;
+  color: 	#ffbf00;
+}
+
+.navbar-nav{
+  font-size: 18px;
 }
